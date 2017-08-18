@@ -13,10 +13,12 @@ describe "Hello World" do
   end
 
   it "When given 'Bob' it should greet Bob!" do
+    # skip
     expect(hello_world 'Bob').must_equal 'Hello, Bob!'
   end
 
   it "When given an empty string it should greet the world!" do
+    # skip
     expect(hello_world '').must_equal 'Hello, World!'
   end
 end
