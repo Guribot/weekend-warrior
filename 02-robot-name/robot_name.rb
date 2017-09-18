@@ -1,7 +1,7 @@
 class Robot
   attr_reader :name
-  LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".chars
-  NUMBERS = "1234567890".chars
+  LETTERS = ('A'..'Z').to_a
+  NUMBERS = (0..9).to_a
 
   def initialize
     build_name
